@@ -1,4 +1,4 @@
-package ch03;
+package this_is_java.ch03;
 
 public class ArithmeticOperatorExample {
     public static void main(String[] args) {
