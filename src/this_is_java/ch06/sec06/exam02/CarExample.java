@@ -1,4 +1,4 @@
-package ch06.sec06.exam02;
+package this_is_java.ch06.sec06.exam02;
 
 public class CarExample {
     public static void main(String[] args) {

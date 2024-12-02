@@ -1,4 +1,4 @@
-package ch06.sec08.exam04;
+package this_is_java.ch06.sec08.exam04;
 
 public class Calculator {
     double areaRectangle(double width) {

@@ -1,4 +1,4 @@
-package ch06.sec06.exam02;
+package this_is_java.ch06.sec06.exam02;
 
 public class Car {
     String company = "현대 자동차";

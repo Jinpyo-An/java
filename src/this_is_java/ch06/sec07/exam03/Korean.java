@@ -1,4 +1,4 @@
-package ch06.sec07.exam03;
+package this_is_java.ch06.sec07.exam03;
 
 public class Korean {
     String nation = "대한민국";

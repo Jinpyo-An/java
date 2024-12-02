@@ -1,4 +1,4 @@
-package ch06.sec08.exam03;
+package this_is_java.ch06.sec08.exam03;
 
 public class Car {
     int gas;
