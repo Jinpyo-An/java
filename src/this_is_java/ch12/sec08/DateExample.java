@@ -12,5 +12,9 @@ public class DateExample {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy.MM.dd HH:mm:ss");
         String strNow2 = sdf.format(now);
         System.out.println(strNow2);
+
+        Date now1 = new Date();
+        SimpleDateFormat sdf1 = new SimpleDateFormat("yyyy년 MM월 dd일");
+        System.out.println(sdf1.format(now1));
     }
 }
