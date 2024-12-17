@@ -2,7 +2,7 @@ package this_is_java.ch13.sec05;
 
 public class Course {
     public static void registerCourse1(Applicant<?> applicant) {
-        System.out.println(applicant.kind.getClass().getSimpleName() + " Course1을 등록함");
+        System.out.println(applicant.kind.getClass().getSimpleName());
     }
 
     public static void registerCourse2(Applicant<? extends Student> applicant) {
