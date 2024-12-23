@@ -8,6 +8,4 @@ public class UnitPrinter {
     public static void printV2(Shuttle<? extends BioUnit> t) {
         t.showInfo();
     }
-
-
 }
