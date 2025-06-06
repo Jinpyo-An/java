@@ -1,4 +1,4 @@
-package inflearn_java_advanced03.lambda.ex3;
+package inflearn_java_advanced03.lambda.ex2;
 
 import java.util.ArrayList;
 import java.util.List;
