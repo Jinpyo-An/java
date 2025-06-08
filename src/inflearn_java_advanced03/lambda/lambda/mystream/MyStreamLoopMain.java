@@ -1,0 +1,29 @@
+package inflearn_java_advanced03.lambda.lambda.mystream;
+
+import java.util.List;
+
+public class MyStreamLoopMain {
+
+    public static void main(String[] args) {
+        final List<Student> students = List.of(
+                new Student("Apple", 100),
+                new Student("Banana", 80),
+                new Student("Berry", 50),
+                new Student("Tomato", 40)
+        );
+
+        final List<String> result = MyStreamV3.of(students)
+                .filter(s -> s.getScore() >= 80)
+                .map(s -> s.getName())
+                .toList();
+
+        for (String s : result) {
+            System.out.println("name: " + s );
+        }
+
+        MyStreamV3.of(students)
+                .filter(s -> s.getScore() >= 80)
+                .map(s -> s.getName())
+                .forEach(name -> System.out.println("name: " + name));
+    }
+}
